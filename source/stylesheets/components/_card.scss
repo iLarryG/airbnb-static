@@ -1,0 +1,43 @@
+.card{
+  position: relative;
+  background-size: cover !important;
+  height: 250px;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.card-user{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card-category{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 25px;
+}
+
+.card-description{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-link{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: black;
+  opacity:0;
+  transition: opacity 300ms;
+  z-index:2;
+}
+
+.card-link:hover{
+  opacity: 0.2;
+}
