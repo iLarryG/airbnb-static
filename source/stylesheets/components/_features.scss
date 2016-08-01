@@ -1,13 +1,14 @@
-.features img{
-  width: 100px;
+.features { 
+  img{
+    width: 100px;
+  }
+  h2 {
+    font-size: 20;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 15;
+    font-weight: lighter;
+  }
 }
 
-.features h2{
-  font-size: 20;
-  margin-bottom: 10px;
-}
-
-.features p{
-  font-size: 15;
-  font-weight: lighter;
-}

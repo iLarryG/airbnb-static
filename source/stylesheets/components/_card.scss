@@ -36,8 +36,7 @@
   opacity:0;
   transition: opacity 300ms;
   z-index:2;
-}
-
-.card-link:hover{
-  opacity: 0.2;
+  &:hover{
+    opacity: 0.2;
+  }
 }
